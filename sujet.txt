@@ -1,0 +1,19 @@
+Vous trouverez dans le dossier le fichier 
+ - un fichier « accueil_greenit.psd » : c'est la maquette de la version desktop
+ - un fichier « index.html » : une ébauche de la page html
+ - un dossier « fonts » qui contient des polices
+
+
+Partie 1 à faire : 
+ - Installez les polices sur votre ordinateur
+ - Exportez les éléments dont vous aurez besoin depuis la maquette "accueil_greenit.psd" (illustrations, icones, etc.)
+
+Partie 2 :
+ - Créez un picto représentant une loupe sous illustrator, enregistrez-le au format png dans un répertoire images sous le nom loupe.png et intégrez-le à la maquette desktop
+ - Sur la base de la maquette Desktop, faire la maquette pour le media queries maxi 576px 
+ - Enregistrez cette maquette sous le nom « accueil_greenit_mob.psd » 
+
+Partie 3 : 
+ - Finir l'intégration et le css de la maquette desktop container de 980px;
+ - Faire le css du responsive maxi 576px en respectant votre maquette
+ - Intégrez un menu responsive, vous pouvez par exemple adapter celui-là : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav

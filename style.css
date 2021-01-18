@@ -1,0 +1,161 @@
+html,body{
+    margin: 0;
+}
+header{
+    background-image: url("img/fond.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+#title{
+    text-align: center;
+    padding-top: 20vh;
+    margin-top: 0;
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+h2{
+    font-weight: bolder;
+}
+h1{
+    font-size: 20px;
+}
+/*NAVBAR*/
+nav{
+    border-bottom: 2px solid black;
+    height: 5vh;
+}
+
+ul,li{
+    display: inline;
+    list-style: none;
+    margin-left: 2.5%;
+    font-size: 25px;
+}
+a{
+    color: #a2bb22;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: #336B87;
+    text-decoration: overline;
+}
+form  {
+    display: inline;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 8vw;
+    font-size: 30px;
+}
+form > input {
+    font-size: 20px;
+    color: white;
+}
+.search{
+    width: 15vw;
+    height: 90%;
+    border: none;
+    background-color: #739273;
+    font-family: 'Proza Libre';
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+:-ms-input-placeholder{
+    color: white
+}
+/*FIN NAVBAR*/
+
+h2{
+    margin-left: 8vw;
+}
+.container{
+    margin-top: 0;
+}
+.items_cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    display: block;
+    width: 25vw;
+    margin: 2vw;
+}
+ img{
+    width: 100%;
+    height: auto;
+}
+p{
+    text-align: justify;
+    font-family: 'Open Sans';
+}
+#social_network{
+    text-align: center;
+}
+#social_network > img{
+    width: 2%;
+    margin: 1vw;
+}
+
+@media(max-width: 480px){
+    #myLinks{
+        display: none;
+    }
+    #openNav{
+        overflow: hidden;
+        position: relative;
+    }
+    h1{
+        font-size: 8px;
+    }
+    h2{
+        font-size: 5px;
+    }
+    header{
+        height: 10vh;
+    }
+    #title{
+        text-align: center;
+        padding-top: 3vh;
+        font-size: 40px;
+        
+    }
+    ul,li{
+        font-size: 8px;
+        margin-left: 1vw;
+    }
+    .search{
+        width: 25vw;
+        height: 1vh;
+    }
+    form > input {
+        font-size: 8px;
+    }
+    .loupe{
+        width: auto;
+        height: 25%;
+    }
+    .items_cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .item{
+        display: block;
+        width: 25vw;
+        margin: 1vw;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    p{
+        font-size: 5px;
+    }
+  }
